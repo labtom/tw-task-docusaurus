@@ -36,6 +36,7 @@
   --ifm-code-font-size: 95%;
   --ifm-navbar-height: 80px;
 
+  --ifm-box-shadow-color-navbar:  rgba(224, 224, 224, 1);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -57,6 +58,8 @@
   --ifm-color-tertiary-lighter: #1a1c20;
   --ifm-color-tertiary-lightest: #071e28;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-box-shadow-color-navbar:  #383838;
 }
 
 @import url('./navbar.css')

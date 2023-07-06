@@ -15,3 +15,11 @@
 .theme-doc-sidebar-item-category-level-2 {
     font-weight: var(--nobl9-font-weight-regular);
 }
+
+.navbar__logo {
+    height: unset;
+  }
+
+.navbar {
+    box-shadow: -1px 3px 3px 0px var(--ifm-box-shadow-color-navbar);
+}
