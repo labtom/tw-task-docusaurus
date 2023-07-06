@@ -30,14 +30,14 @@ Markdown text with [links](./hello.md)
 Regular Markdown links are supported, using url paths or relative file paths.
 
 ```md
-Let's see how to [Create a page](/create-a-page).
+Let's see how to complete my [Tech writing task](/tw-task).
 ```
 
 ```md
-Let's see how to [Create a page](./create-a-page.md).
+Let's see how to [Create a page](./Tech_Writing_task.mdx).
 ```
 
-**Result:** Let's see how to [Create a page](./create-a-page.md).
+**Result:** Let's see how to complete my [Tech writing task](/tw-task).
 
 ## Images
 
@@ -46,10 +46,10 @@ Regular Markdown images are supported.
 You can use absolute paths to reference images in the static directory (`static/img/docusaurus.png`):
 
 ```md
-![Docusaurus logo](/img/docusaurus.png)
+![Nobl9 logo](/img/logo_dark.svg)
 ```
 
-![Docusaurus logo](/img/docusaurus.png)
+![Nobl9 logo](/img/logo_dark.svg)
 
 You can reference images relative to the current file as well. This is particularly useful to colocate images close to the Markdown files using them:
 
@@ -61,36 +61,63 @@ You can reference images relative to the current file as well. This is particula
 
 Markdown code blocks are supported with Syntax highlighting.
 
-    ```jsx title="src/components/HelloDocusaurus.js"
-    function HelloDocusaurus() {
-        return (
-            <h1>Hello, Docusaurus!</h1>
-        )
-    }
-    ```
+```yaml
+project_name: My Awesome IT Project
+description: |
+  Welcome to the My Awesome IT Project! We're excited to have you on board.
+  This project aims to revolutionize the way we handle IT operations within our organization.
+  Together, we will create innovative solutions and streamline our workflows.
 
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloDocusaurus() {
-  return <h1>Hello, Docusaurus!</h1>;
-}
+team_members:
+  - name: John Doe
+    role: Project Manager
+  - name: Jane Smith
+    role: Lead Developer
+  - name: Alex Johnson
+    role: Systems Administrator
+
+start_date: 2023-07-01
+end_date: 2024-01-01
+status: In Progress
+
+tasks:
+  - name: Define project scope
+    status: Complete
+  - name: Develop core functionality
+    status: In Progress
+  - name: Test and QA
+    status: Pending
+  - name: Deployment and rollout
+    status: Pending
+  - name: Create technical documentation
+    status: in progress
 ```
 
 ## Admonitions
 
 Docusaurus has a special syntax to create admonitions and callouts:
 
-    :::tip My tip
+```text
+:::tip My tip
 
-    Use this awesome feature option
+Use this feature option if you want to include a tip in your document.
 
-    :::
 
-    :::danger Take care
+:::
 
-    This action is dangerous
+:::danger Take care
 
-    :::
+Use this feature option for any warnings that you want to include in your documentation.
 
+:::
+
+:::caution Be cautious!
+
+Use this feature option to include caution prompts in your documentation.
+
+:::
+
+```
 :::tip My tip
 
 Use this awesome feature option
@@ -100,6 +127,12 @@ Use this awesome feature option
 :::danger Take care
 
 This action is dangerous
+
+:::
+
+:::caution Be cautious!
+
+Use this feature option to include caution prompts in your documentation.
 
 :::
 

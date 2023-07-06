@@ -1,8 +1,4 @@
 {
     "label": "Tech Writing Task",
-    "position": 3,
-    "link": {
-      "type": "generated-index",
-      "description": "Check out for details on your task!"
-    }
+    "position": 3
   }
