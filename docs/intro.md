@@ -6,7 +6,7 @@ slug: /
 
 # Welcome to your Tech Writing Task
 
-In this task, you're going to use a simple page based on Docusaurus. You can run it locally
+In this task, you're going to use a simple page based on Docusaurus. You can run it [locally](#start-your-site) in your browser!
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
@@ -22,7 +22,7 @@ When installing Node.js, we recommend to **check all checkboxes related to depen
 After you've installed `Node.js` on your computer, you can easily run the development server.
 
 To do that, you'll need to complete two simple steps:
-1. Install `node_modules` in this repository in your code editor
+1. Install `node_modules` in this repository in your code editor.
 2. Once that's done - run the localhost.
 
 So, open up a terminal in the repository in your code editor and:
@@ -38,7 +38,7 @@ npm run start
 ```
 
 :::tip
-You can ignore these warning after running `npm install`
+You can ignore these warnings after running `npm install`:
 
 ![Warnings](/img/npm-warning.png)
 :::
