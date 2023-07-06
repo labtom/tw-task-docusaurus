@@ -27,7 +27,7 @@ const config = {
           routeBasePath: '/',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
-          breadcrumbs: false,
+          breadcrumbs: true,
         },
         pages: false,
         theme: {
@@ -43,7 +43,6 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
         logo: {
           alt: 'Nobl9 Tech Writing Task',
           src: '/img/nobl9_logo.svg',
@@ -56,12 +55,22 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Tutorial - Check First',
+          },
+          {
+            label: 'Tech Writing Task',
+            position: 'left',
+            to: '/Tech_Writing_Task/'
+          },
+          {
+            href: 'https://docs.nobl9.com/',
             position: 'right',
-            label: 'Tutorial',
+            label: 'Nobl9 Documentation',
           },
           {
             href: 'https://www.nobl9.com/',
-            label: 'Nobl9',
+            label: 'Nobl9 Home',
             position: 'right',
           },
         ],
