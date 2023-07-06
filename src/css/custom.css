@@ -5,7 +5,15 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url(https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
 :root {
+  --ifm-font-family-base: 'Mulish', sans-serif;
+  --nobl9-font-weight-regular: 400;
+  --nobl9-font-weight-bolder: 510;
+  --nobl9-font-weight-bold: 700;
+
   --ifm-color-primary: #27bad3;
   --ifm-color-primary-dark: #23a7be;
   --ifm-color-primary-darker: #219eb3;
@@ -50,3 +58,5 @@
   --ifm-color-tertiary-lightest: #071e28;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+@import url('./navbar.css')

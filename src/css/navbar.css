@@ -1,0 +1,17 @@
+.navbar__link {
+    font-weight: var(--nobl9-font-weight-bold);
+}
+
+.dropdown__link {
+    font-weight: var(--nobl9-font-weight-bold);
+}
+
+.theme-doc-sidebar-item-link-level-1,
+.theme-doc-sidebar-item-category-level-1 {
+    font-weight: var(--nobl9-font-weight-bolder);
+}
+
+.theme-doc-sidebar-item-link-level-2,
+.theme-doc-sidebar-item-category-level-2 {
+    font-weight: var(--nobl9-font-weight-regular);
+}
