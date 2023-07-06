@@ -8,22 +8,24 @@ slug: /
 
 In this task, you're going to use a simple page based on Docusaurus. You can run it locally
 
-
 Let's discover **Docusaurus in less than 5 minutes**.
 
 
 ## First Things First: What You'll Need
 
-If you'd like to [run this page locally](#start-your-site), you must install some packages:
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+If you'd like to [run this page locally](#start-your-site), you'll have to install [Node.js](https://nodejs.org/en/download/)
+
+When installing Node.js, we recommend to **check all checkboxes related to dependencies**.
 
 ## Start Your Site
 
-After you've installed `Node.js` on your computer, you can easily run the development server. You'll need to install `node_modules` in your repository, then once that's done - run the localhost.
+After you've installed `Node.js` on your computer, you can easily run the development server.
 
+To do that, you'll need to complete two simple steps:
+1. Install `node_modules` in this repository in your code editor
+2. Once that's done - run the localhost.
 
-You can do that in two easy steps! Open up a terminal in the repository in your code editor and:
+So, open up a terminal in the repository in your code editor and:
 
 ```bash
 # Run this command first to install node_modules
