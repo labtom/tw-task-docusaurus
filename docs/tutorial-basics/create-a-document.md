@@ -5,13 +5,18 @@ sidebar_position: 2
 
 # Create a Document
 
-Documents are **groups of pages** connected through:
+Documents on this page are simply **groups of pages** connected through:
 
 - a **sidebar**
 - **previous/next navigation**
-- **versioning**
 
-## Create your first Doc
+And generated from the folders and markdown files in the `/docs` folder.
+
+:::tip
+Just add a test markdown file to the `/docs` folder to see how it works.
+:::
+
+## Create Your First Doc
 
 Create a Markdown file at `docs/hello.md`:
 
@@ -29,10 +34,14 @@ Docusaurus automatically **creates a sidebar** from the `docs` folder.
 
 Add metadata to customize the sidebar label and position:
 
-```md title="docs/hello.md" {1-4}
+```md
 ---
+id: hi
 sidebar_label: 'Hi!'
 sidebar_position: 3
+description: 'Hi! I'm a markdown page'
+keywords:
+  - my first md page here
 ---
 
 # Hello
@@ -40,19 +49,8 @@ sidebar_position: 3
 This is my **first Docusaurus document**!
 ```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+Check [this document](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs#markdown-front-matter) if you'd like to see how you can define sidebar label and other metadata for your markdown files.
 
-```js title="sidebars.js"
-module.exports = {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+:::tip
+Markdown front matter follows standard formatting for [YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started).
+:::

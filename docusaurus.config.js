@@ -53,10 +53,22 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial - Check First',
+            items: [
+              {
+                label: 'Create Your First Doc!',
+                to: '/tutorial-basics/create-document'
+              },
+              {
+                label: 'Markdown Features',
+                to: '/tutorial-basics/markdown-features'
+              },
+              {
+                label: 'Other stuff!',
+                to: '/tutorial-basics/congratulations'
+              }
+            ]
           },
           {
             label: 'Tech Writing Task',
